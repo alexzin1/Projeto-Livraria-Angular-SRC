@@ -1,0 +1,9 @@
+#alerta{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 2px;
+    padding-left: 5px;
+    text-align: center;
+    display: none;
+}

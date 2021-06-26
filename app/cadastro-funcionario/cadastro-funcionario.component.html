@@ -1,0 +1,51 @@
+<p>cadastro-funcionario works!</p>
+<div class="container">
+
+  <form class="form-horizontal" #cadUser>
+      <fieldset>
+
+          <!-- Form Name -->
+          <legend>Cadastro de Funcionários</legend>
+
+          <!-- Text input-->
+          <div class="form-group">
+              <label class="col-md-4 control-label" for="name">Nome</label>
+              <div class="col-md-5">
+                  <input #name type="text" placeholder="" class="form-control input-md">
+
+              </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="user">Login</label>
+            <div class="col-md-5">
+                <input #user type="text" placeholder="" class="form-control input-md">
+            </div>
+        </div>
+
+
+          <!-- Password input-->
+          <div class="form-group">
+              <label class="col-md-4 control-label" for="pass">Senha</label>
+              <div class="col-md-5">
+                  <input #pass type="password" placeholder="" class="form-control input-md">
+
+              </div>
+          </div>
+
+
+
+      </fieldset>
+  </form>
+  <div class="container" id="alertas"></div>
+
+  <!-- Button -->
+  <div class="form-group">
+      <label class="col-md-4 control-label" for=""></label>
+      <div class="col-md-4">
+          <button class="btn btn-info" (click)="cadastrar()">Cadastrar</button>
+      </div>
+  </div>
+
+</div>

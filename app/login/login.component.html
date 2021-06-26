@@ -1,0 +1,15 @@
+<div class="container" id="login">
+    <h2>LOGIN</h2>
+
+    <div #loginreset class="container col-md-8 form-group">
+        <input #user type="text" placeholder="USUARIO" class="form-control input-md">
+        <br />
+        <input #pass type="password" placeholder="SENHA" class="form-control input-md">
+    </div>
+
+    <div class="form-group">
+        <button (click)="login()" class="btn btn-success">LOGIN</button>
+    </div>
+
+    <div id="alerta"></div>
+</div>

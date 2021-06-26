@@ -1,0 +1,61 @@
+<p>cadastro-livro works!</p>
+<div class="container">
+
+  <form class="form-horizontal" #cadUser>
+      <fieldset>
+
+          <!-- Form Name -->
+          <legend>Cadastro de Livros (apenas funcionários)</legend>
+
+          <!-- Titulo input-->
+          <div class="form-group">
+              <label class="col-md-4 control-label" for="titulo">Título</label>
+              <div class="col-md-5">
+                  <input #titulo type="text" placeholder="" class="form-control input-md">
+
+              </div>
+          </div>
+
+          <!-- genero select-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="genero">Gênero</label>
+            <div class="col-md-5">
+                <select #genero class="select" multiple>
+                  <option value="Terror">Terror</option>
+                  <option value="Acao">Ação</option>
+                  <option value="Romance">Romance</option>
+                  <option value="Comedia">Comédia</option>
+                </select>
+            </div>
+        </div>
+
+
+          <!-- Autor input-->
+          <div class="form-group">
+              <label class="col-md-4 control-label" for="autor">Autor</label>
+              <div class="col-md-5">
+                  <input #autor type="text" placeholder="" class="form-control input-md">
+              </div>
+          </div>
+
+          <!-- Preco input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="preco">Preço</label>
+            <div class="col-md-5">
+                <input #preco type="number" placeholder="" class="form-control input-md">
+            </div>
+        </div>
+
+      </fieldset>
+  </form>
+  <div class="container" id="alertas"></div>
+
+  <!-- Button -->
+  <div class="form-group">
+      <label class="col-md-4 control-label" for=""></label>
+      <div class="col-md-4">
+          <button class="btn btn-info" (click)="cadastrarL()">Cadastrar</button>
+      </div>
+  </div>
+
+</div>

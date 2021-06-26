@@ -1,0 +1,6 @@
+.livros{
+  border: 1px solid gray;
+  box-shadow: 2px 2px 2px lightgrey;
+  width: 50%;
+  border-radius: 10px;
+}

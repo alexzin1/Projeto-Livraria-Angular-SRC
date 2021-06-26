@@ -1,0 +1,47 @@
+<p>alugar-livro works!</p>
+
+<section class="container">
+  <header>
+      <h3>Livros para alugar </h3>
+  </header>
+  <article *ngFor="let livros of listaLivros" class="livros">
+        <div class="row">
+          <div class="col-md-3">
+              Título do livro:
+          </div>
+          <div class="col-md-6">
+              {{livros.titulo}}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+              Gênero do livro:
+          </div>
+          <div class="col-md-6">
+              {{livros.genero}}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+              Autor do livro:
+          </div>
+          <div class="col-md-6">
+              {{livros.autor}}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+              Preço do livro:
+          </div>
+          <div class="col-md-6">
+              {{livros.preco}}
+          </div>
+        </div>
+
+  </article>
+
+</section>
+
