@@ -8,7 +8,11 @@ O projeto conta com login/senha de adm que tem acesso a todas as páginas e clie
 É possível cadastrar livros, clientes e funcionários.
 
 login / senha criadas de modo arbitrário para teste:
+
 root / 123
+
 funcionario / 123
+
 cliente1 / 123
+
 cliente2 / 123
