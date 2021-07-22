@@ -1,8 +1,8 @@
 # Projeto-Livraria-Angular-SRC
 
-A pasta é basicamente o SRC, falta adicionar o node_modules para rodar o angular.
+projeto em andamento, não tem a parte do frontend completa (apenas uma navbar) e nem a conexão com a base de dados, é apenas a lógica dos routers e auth.
 
-O projeto backend conta com um login de administrador que tem acesso a todas as páginas para testar e cliente/funcionário que tem acesso a páginas específicas com o uso do Authguard.
+O projeto backend conta com um login de administrador que tem acesso a todas as páginas para testar. há também o login de cliente/funcionário que tem acesso a páginas específicas com o uso do Authguard.
 
 - No projeto é possível cadastrar livros, clientes e funcionários, verificar livros cadastrados e fazer login/logout.
 
